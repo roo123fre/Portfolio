@@ -66,6 +66,7 @@ body {
   max-width: 640px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 240px;
 }
 
 .hero__subname {
@@ -82,18 +83,22 @@ body {
   line-height: 25px;
   color: #ffffff;
   position: relative;
+  display: block;
+  text-align: center;
+  text-decoration: none;
   
 }
 
 .hero__works::after{
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 25px;
+    left: 50px;
     height: 21px;
     width: 40px;
     background-repeat: no-repeat;
     background-image: url(./logos/arrow.svg);
+    text-align: center;
 }
 
 .about__title {
